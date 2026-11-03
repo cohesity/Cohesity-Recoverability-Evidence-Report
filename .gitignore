@@ -1,0 +1,16 @@
+.fuse_hidden*
+.DS_Store
+
+# Never commit secrets or local config
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+*.token
+secrets.*
+credentials.*
+*.bundle
