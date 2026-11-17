@@ -1,3 +1,5 @@
+Copyright Cohesity 2026, SPDX-License-Identifier: Apache-2.0
+
 # Evidence Report Methodology
 
 ## Standards (defaults, overridable by the user)

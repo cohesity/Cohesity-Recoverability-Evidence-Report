@@ -1,3 +1,5 @@
+Copyright Cohesity 2026, SPDX-License-Identifier: Apache-2.0
+
 - Produce a recoverability evidence report for the last 30 days
 - Which protection groups have an evidence gap and why?
 - Show recovery point evidence for <cluster name>

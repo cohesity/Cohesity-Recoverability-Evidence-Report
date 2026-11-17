@@ -1,3 +1,5 @@
+Copyright Cohesity 2026, SPDX-License-Identifier: Apache-2.0
+
 # Helios MCP Tool Notes
 
 Reference for the agent. Use these rules whenever you call the Helios MCP tools. All tools are read-only.

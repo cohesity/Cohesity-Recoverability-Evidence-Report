@@ -1,3 +1,5 @@
+Copyright Cohesity 2026, SPDX-License-Identifier: Apache-2.0
+
 # Cohesity Recoverability Evidence Agent For Microsoft Copilot Studio
 
 Recoverability evidence over a reporting period, as a Copilot Studio agent. This is the same logic as the Claude skill in `../claude/`, rewritten as agent instructions and knowledge files.
@@ -76,9 +78,9 @@ This agent needs these read-only Helios MCP tools. Enable them and keep every ot
 
 | Area | Claude skill | Copilot Studio agent |
 |---|---|---|
-| Output | Live page that refreshes daily | Chat answer with tables, on demand |
+| Output | Live page, refreshed on request (optional daily schedule) | Chat answer with tables, on demand |
 | Cluster choice | Multi-select on the page | Name the cluster in your question |
-| Schedule | Scheduled task in Claude | Power Automate flow with a schedule trigger (not part of this folder) |
+| Schedule | Optional scheduled task in Claude (created only with approval) | Power Automate flow with a schedule trigger (not part of this folder) |
 | Large Helios responses | Processed with code | Can be slow or hit tool limits on big estates. Ask for one cluster at a time. |
 | CSV | Copy and download buttons | Ask for a CSV block in chat and copy it |
 | Access | Read-only | Read-only |
