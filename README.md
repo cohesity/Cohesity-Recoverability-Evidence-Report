@@ -32,6 +32,12 @@ Helios MCP is read-only, so the report is derived from backup run and snapshot m
 
 **Merged skill.** Cohesity-Recovery-Point-Explorer is deprecated and merged into this skill; its artifact is replaced by the Recovery Points, Expiry & Locks and Objects at risk tabs. Delete its scheduled task and archive that repository. One difference to know: the Explorer read 7 days of runs, this skill reads the reporting period (default 30 days) for every tab. Other small definition differences are listed in the skill ("Where the two earlier skills differed").
 
+## Sample output
+
+![Evidence tab](docs/screenshots/recoverability-evidence-report-claude.png)
+
+Screenshots of every tab, with lab data and names blurred, are in [claude/README.md](claude/README.md).
+
 ## What you get
 
 The page header carries the Cohesity logo top-left and, top right, the Evidence ID, the period and **Data last pulled** with its age (for example "3 h ago"; shown in amber when a refresh schedule is set and the data is older than 36 hours, meaning the scheduled refresh may have been missed; the header says "Refreshes <schedule>" only when an enabled schedule exists, and says nothing about refreshing otherwise).
